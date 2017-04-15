@@ -1,4 +1,4 @@
-FROM eboraas/apache
+FROM eboraas/docker pull eboraas/apache-php
 
 RUN apt-get update && apt-get install git -y  
 
