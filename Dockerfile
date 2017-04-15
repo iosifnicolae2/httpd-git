@@ -1,4 +1,7 @@
-FROM httpd:2.4
+FROM eboraas/apache
+
 COPY ./start.sh /
 
-CMD['/start.sh']
+EXPOSE 80
+
+CMD [ "/start.sh" ]
