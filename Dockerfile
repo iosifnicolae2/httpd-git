@@ -1,4 +1,4 @@
-FROM eboraas/apache-php
+FROM chriswayg/apache-php
 
 RUN apt-get update && apt-get install git -y  
 
